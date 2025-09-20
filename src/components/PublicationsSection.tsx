@@ -14,8 +14,15 @@ const workingPapers = [
   {
     title: "History-dependent fluid approximations and performance guarantees for revenue management with Markov-modulated demands",
     authors: "Weiyuan Li, Paat Rusmevichientong, Huseyin Topaloglu and Jingwei Zhang",
-    status: "submitted",
+    status: "Major Revision at Operations Research",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107682",
+    type: "working"
+  },
+  {
+    title: "Dynamic pricing over a network of resources under monotonicity constraints",
+    authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
+    status: "Work in Progress",
+    link: "",
     type: "working"
   }
 ];
@@ -23,15 +30,19 @@ const workingPapers = [
 const PaperCard = ({ paper }: { paper: any }) => (
   <div className="card-academic p-6 group hover:shadow-elegant transition-all duration-300">
     <h3 className="text-lg font-semibold mb-3 group-hover:text-primary transition-colors">
-      <a 
-        href={paper.link}
-        className="link-academic flex items-start gap-2"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <span className="flex-1">{paper.title}</span>
-        <ExternalLink className="w-4 h-4 mt-1 opacity-60 group-hover:opacity-100 transition-opacity" />
-      </a>
+      {paper.link ? (
+        <a 
+          href={paper.link}
+          className="link-academic flex items-start gap-2"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span className="flex-1">{paper.title}</span>
+          <ExternalLink className="w-4 h-4 mt-1 opacity-60 group-hover:opacity-100 transition-opacity" />
+        </a>
+      ) : (
+        <span>{paper.title}</span>
+      )}
     </h3>
     <p className="text-muted-foreground mb-2">{paper.authors}</p>
     <p className="text-sm text-primary font-medium">

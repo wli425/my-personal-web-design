@@ -2,6 +2,12 @@ import { GraduationCap } from "lucide-react";
 
 const teachingExperience = [
   {
+    course: "ORIE 5380/CS5727: Optimization Methods",
+    institution: "Cornell Tech",
+    semester: "Fall 2025",
+    role: "TA"
+  },
+  {
     course: "ORIE 5132: Pricing Analytics and Revenue Management",
     institution: "Cornell Tech",
     semester: "Spring 2024 and Spring 2025",

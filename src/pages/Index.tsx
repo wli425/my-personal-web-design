@@ -2,8 +2,9 @@ import { Navigation } from "@/components/Navigation";
 import { HeroSection } from "@/components/HeroSection";
 import { AboutSection } from "@/components/AboutSection";
 import { PublicationsSection } from "@/components/PublicationsSection";
+import { IndustrySection } from "@/components/IndustrySection";
 import { TeachingSection } from "@/components/TeachingSection";
-import { NewsSection } from "@/components/NewsSection";
+import { TalksSection } from "@/components/TalksSection";
 
 const Index = () => {
   return (
@@ -13,8 +14,9 @@ const Index = () => {
         <HeroSection />
         <AboutSection />
         <PublicationsSection />
+        <IndustrySection />
         <TeachingSection />
-        <NewsSection />
+        <TalksSection />
       </main>
     </div>
   );
