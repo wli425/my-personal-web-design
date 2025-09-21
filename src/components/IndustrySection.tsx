@@ -44,13 +44,11 @@ export const IndustrySection = () => {
                     {item.title}
                   </h3>
                   <p className="text-muted-foreground text-sm">
-                    {item.company}, {item.location}
+                    {item.company}
                   </p>
-                  {item.team && (
-                    <p className="text-muted-foreground text-sm">
-                      {item.team}
-                    </p>
-                  )}
+                  <p className="text-muted-foreground text-sm">
+                    {item.location}
+                  </p>
                 </div>
                 <div className="text-right">
                   <span className="text-sm font-medium text-primary bg-primary-lighter px-3 py-1 rounded-full">
