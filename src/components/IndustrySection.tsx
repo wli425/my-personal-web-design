@@ -7,6 +7,20 @@ const industryExperience = [
     location: "Bellevue",
     period: "Summer 2025",
     type: "internship"
+  },
+  {
+    title: "Summer Intern, Quant Researcher at Equity Flow Vol Team",
+    company: "Goldman Sachs, Global Markets Division",
+    location: "Hong Kong",
+    period: "Jul. 2020 – Aug. 2020",
+    type: "internship"
+  },
+  {
+    title: "Summer Intern, Quant Researcher at High Frequency Trading Team",
+    company: "Ubiquant(Jiukun) Investment, Strats Division",
+    location: "Hong Kong",
+    period: "Summer 2020",
+    type: "internship"
   }
 ];
 
