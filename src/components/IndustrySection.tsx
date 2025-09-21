@@ -9,10 +9,11 @@ const industryExperience = [
     type: "internship"
   },
   {
-    title: "Summer Intern, Quant Researcher at Equity Flow Vol Team",
+    title: "Quant Researcher Intern",
     company: "Goldman Sachs, Global Markets Division",
+    team: "Equity Flow Vol Team",
     location: "Hong Kong",
-    period: "Jul. 2020 – Aug. 2020",
+    period: "Summer 2020",
     type: "internship"
   },
   {
@@ -46,6 +47,11 @@ export const IndustrySection = () => {
                   <p className="text-muted-foreground text-sm">
                     {item.company}, {item.location}
                   </p>
+                  {item.team && (
+                    <p className="text-muted-foreground text-sm">
+                      {item.team}
+                    </p>
+                  )}
                 </div>
                 <div className="text-right">
                   <span className="text-sm font-medium text-primary bg-primary-lighter px-3 py-1 rounded-full">
