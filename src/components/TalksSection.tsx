@@ -75,18 +75,7 @@ export const TalksSection = () => {
           {talksAndPosters.map((paper, paperIndex) => (
             <div key={paperIndex} className="card-academic p-6">
               <h3 className="text-lg font-semibold mb-4 text-foreground">
-                {paper.link ? (
-                  <a 
-                    href={paper.link}
-                    className="link-academic"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    {paper.title}
-                  </a>
-                ) : (
-                  paper.title
-                )}
+                {paper.title}
               </h3>
               <div className="space-y-3">
                 {paper.events.map((event, eventIndex) => (
