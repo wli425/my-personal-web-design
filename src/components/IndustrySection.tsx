@@ -3,23 +3,22 @@ import { Briefcase } from "lucide-react";
 const industryExperience = [
   {
     title: "Research Scientist Intern",
-    company: "Fulfillment by Amazon Science Team",
+    company: "Amazon, Fulfillment by Amazon Science Team",
     location: "Bellevue",
     period: "Summer 2025",
     type: "internship"
   },
   {
     title: "Quant Researcher Intern",
-    company: "Goldman Sachs, Global Markets Division",
-    team: "Equity Flow Vol Team",
+    company: "Goldman Sachs, Equity Flow Vol Team",
     location: "Hong Kong",
     period: "Summer 2020",
     type: "internship"
   },
   {
-    title: "Summer Intern, Quant Researcher at High Frequency Trading Team",
-    company: "Ubiquant(Jiukun) Investment, Strats Division",
-    location: "Hong Kong",
+    title: "Quant Researcher Intern",
+    company: "Ubiquant(Jiukun) Investment, High Frequency Trading Team",
+    location: "Beijing",
     period: "Summer 2020",
     type: "internship"
   }
