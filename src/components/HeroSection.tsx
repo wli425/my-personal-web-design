@@ -1,5 +1,5 @@
 import { Mail, MapPin } from "lucide-react";
-import heroImage from "@/assets/hero-image.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 export const HeroSection = () => {
   return (
@@ -36,7 +36,7 @@ export const HeroSection = () => {
           <div className="animate-scale-in">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img
-                src={heroImage}
+                src={profilePhoto}
                 alt="Weiyuan Li - Ph.D. Candidate at Cornell University"
                 className="w-full h-[500px] lg:h-[600px] object-cover"
               />
