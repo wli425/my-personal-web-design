@@ -1,6 +1,6 @@
 import { Briefcase } from "lucide-react";
 
-const industryExperience = [
+const industrialExperience = [
   {
     title: "Research Scientist Intern",
     company: "Amazon, Fulfillment by Amazon Science Team",
@@ -30,10 +30,10 @@ export const IndustrySection = () => {
       <div className="section-container">
         <h2 className="section-heading flex items-center gap-3">
           <Briefcase className="w-7 h-7 text-primary" />
-          Industry Experience
+          Industrial Experience
         </h2>
         <div className="grid gap-4 animate-slide-in">
-          {industryExperience.map((item, index) => (
+          {industrialExperience.map((item, index) => (
             <div 
               key={index}
               className="card-academic p-6 border-l-4 border-l-primary/30 hover:border-l-primary transition-colors"
