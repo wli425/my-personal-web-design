@@ -2,7 +2,7 @@ import { Presentation, Award, Trophy } from "lucide-react";
 
 const talksAndPosters = [
   {
-    title: "History-Dependent Fluid Approximations with Markov-Modulated Demands",
+    title: "History-Dependent Fluid Approximations and Performance Guarantees with Markov-Modulated Demands",
     events: [
       {
         event: "INFORMS, Job Market Showcase",
@@ -54,7 +54,7 @@ const talksAndPosters = [
         type: "poster"
       },
       {
-        event: "ORIE Industry and Data Science Summit",
+        event: "Cornell Industry and Data Science Summit",
         location: "Ithaca",
         date: "October 2023",
         type: "presentation"
