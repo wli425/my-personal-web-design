@@ -12,14 +12,14 @@ const publications = [
 
 const workingPapers = [
   {
-    title: "History-dependent fluid approximations and performance guarantees for revenue management with Markov-modulated demands",
+    title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
     authors: "Weiyuan Li, Paat Rusmevichientong, Huseyin Topaloglu and Jingwei Zhang",
     status: "Major Revision at Operations Research",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107682",
     type: "working"
   },
   {
-    title: "Dynamic pricing over a network of resources under monotonicity constraints",
+    title: "Dynamic Pricing Over a Network of Resources Under Monotonicity Constraints",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
     status: "Work in Progress",
     link: "",
