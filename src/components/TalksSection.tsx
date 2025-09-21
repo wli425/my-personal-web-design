@@ -2,7 +2,7 @@ import { Presentation, Award, Trophy } from "lucide-react";
 
 const talksAndPosters = [
   {
-    title: "History-Dependent Fluid Approximations for Revenue Management with Markov-Modulated Demands",
+    title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
     events: [
       {
         event: "INFORMS, Job Market Showcase",
