@@ -19,7 +19,7 @@ const industryExperience = [
     title: "Quant Researcher Intern",
     company: "Ubiquant(Jiukun) Investment, High Frequency Trading Team",
     location: "Beijing",
-    period: "Summer 2020",
+    period: "Summer 2019",
     type: "internship"
   }
 ];
