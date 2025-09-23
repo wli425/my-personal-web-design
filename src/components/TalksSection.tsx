@@ -5,7 +5,7 @@ const talksAndPosters = [
     title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
     events: [
       {
-        event: "INFORMS, Job Market Showcase",
+        event: "INFORMS Conference, Job Market Showcase",
         location: "Atlanta",
         date: "Oct 2025",
         type: "presentation"
