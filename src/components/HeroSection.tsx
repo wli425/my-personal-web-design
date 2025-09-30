@@ -1,5 +1,6 @@
-import { Mail, MapPin } from "lucide-react";
+import { Mail, MapPin, Linkedin, GraduationCap } from "lucide-react";
 import profilePhoto from "@/assets/profile-photo.jpg";
+import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
   return (
@@ -29,6 +30,39 @@ export const HeroSection = () => {
                 <Mail className="w-5 h-5 text-primary" />
                 <span>wl425 "at" cornell "dot" edu</span>
               </div>
+            </div>
+
+            <div className="flex gap-3 pt-2">
+              <Button
+                variant="outline"
+                size="icon"
+                asChild
+                className="hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <a
+                  href="https://www.linkedin.com/in/weiyuan-li-458191279"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="LinkedIn Profile"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                asChild
+                className="hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <a
+                  href="https://scholar.google.com/citations?user=9rZVykoAAAAJ&hl=en"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Google Scholar Profile"
+                >
+                  <GraduationCap className="w-5 h-5" />
+                </a>
+              </Button>
             </div>
           </div>
 
