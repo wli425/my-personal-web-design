@@ -1,19 +1,19 @@
 import { Film } from "lucide-react";
 
 const favoriteMovies = [
-  { title: "Peppermint Candy", year: 1999, director: "Lee Chang-dong" },
-  { title: "Un Poeta", year: 2025, director: "Darezhan Omirbayev" },
-  { title: "Les glaneurs et la glaneuse", year: 2000, director: "Agnès Varda" },
-  { title: "Crouching Tiger, Hidden Dragon", year: 2000, director: "Ang Lee" },
-  { title: "The Room Next Door", year: 2024, director: "Pedro Almodóvar" },
-  { title: "Kaili Blues", year: 2015, director: "Bi Gan" },
-  { title: "Where Is the Friend's House?", year: 1987, director: "Abbas Kiarostami" },
-  { title: "A City of Sadness", year: 1989, director: "Hou Hsiao-hsien" },
-  { title: "After the Storm", year: 2016, director: "Hirokazu Kore-eda" },
-  { title: "Still Life", year: 2006, director: "Jia Zhangke" },
-  { title: "Solaris", year: 1972, director: "Andrei Tarkovsky" },
-  { title: "Mulholland Drive", year: 2001, director: "David Lynch" },
-  { title: "Roma", year: 2018, director: "Alfonso Cuarón" },
+  { title: "Peppermint Candy", year: 1999, director: "Lee Chang-dong", poster: "/posters/peppermint-candy.jpg" },
+  { title: "Un Poeta", year: 2025, director: "Darezhan Omirbayev", poster: "/posters/poet.jpg" },
+  { title: "Les glaneurs et la glaneuse", year: 2000, director: "Agnès Varda", poster: "/posters/gleaners.jpg" },
+  { title: "Crouching Tiger, Hidden Dragon", year: 2000, director: "Ang Lee", poster: "/posters/crouching-tiger.jpg" },
+  { title: "The Room Next Door", year: 2024, director: "Pedro Almodóvar", poster: "/posters/room-next-door.jpg" },
+  { title: "Kaili Blues", year: 2015, director: "Bi Gan", poster: "/posters/kaili-blues.jpg" },
+  { title: "Where Is the Friend's House?", year: 1987, director: "Abbas Kiarostami", poster: "/posters/friends-house.jpg" },
+  { title: "A City of Sadness", year: 1989, director: "Hou Hsiao-hsien", poster: "/posters/city-sadness.jpg" },
+  { title: "After the Storm", year: 2016, director: "Hirokazu Kore-eda", poster: "/posters/after-storm.jpg" },
+  { title: "Still Life", year: 2006, director: "Jia Zhangke", poster: "/posters/still-life.jpg" },
+  { title: "Solaris", year: 1972, director: "Andrei Tarkovsky", poster: "/posters/solaris.jpg" },
+  { title: "Mulholland Drive", year: 2001, director: "David Lynch", poster: "/posters/mulholland-drive.jpg" },
+  { title: "Roma", year: 2018, director: "Alfonso Cuarón", poster: "/posters/roma.jpg" },
 ];
 
 export const OtherSection = () => {
@@ -38,15 +38,17 @@ export const OtherSection = () => {
                 key={`${movie.title}-${movie.year}`}
                 className="group relative aspect-[2/3] bg-muted/50 rounded-md overflow-hidden border border-border/50 hover:border-border transition-all hover:shadow-sm"
               >
-                <div className="absolute inset-0 flex flex-col items-center justify-center p-3 text-center">
-                  <p className="text-xs font-medium text-foreground/80 line-clamp-2 mb-1">
+                <img 
+                  src={movie.poster} 
+                  alt={`${movie.title} (${movie.year})`}
+                  className="w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-end p-3 text-center">
+                  <p className="text-xs font-medium text-foreground line-clamp-2 mb-1">
                     {movie.title}
                   </p>
-                  <p className="text-xs text-muted-foreground opacity-60">
-                    {movie.year}
-                  </p>
-                  <p className="text-xs text-muted-foreground opacity-50 mt-1 line-clamp-2">
-                    {movie.director}
+                  <p className="text-xs text-muted-foreground opacity-80">
+                    {movie.director}, {movie.year}
                   </p>
                 </div>
               </div>
