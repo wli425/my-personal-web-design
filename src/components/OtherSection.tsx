@@ -1,4 +1,4 @@
-import { Film } from "lucide-react";
+import { Popcorn } from "lucide-react";
 
 const favoriteMovies = [
   { title: "Peppermint Candy", year: 1999, director: "Lee Chang-dong", poster: "/posters/peppermint-candy.jpg" },
@@ -19,10 +19,10 @@ export const OtherSection = () => {
 
   return (
     <section id="other" className="py-8 bg-muted/30 overflow-hidden">
-      <div className="flex items-center gap-2 mb-6 justify-center opacity-60">
-        <Film className="w-4 h-4 text-muted-foreground" />
-        <h2 className="text-sm font-medium text-muted-foreground tracking-wide">
-          My favorite films exhibition
+      <div className="flex items-center gap-2 mb-6 justify-center">
+        <Popcorn className="w-5 h-5 text-primary animate-pulse" />
+        <h2 className="text-base font-semibold text-foreground tracking-wide">
+          🎬 My Favorite Films Exhibition 🍿
         </h2>
       </div>
       
