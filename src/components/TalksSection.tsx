@@ -30,7 +30,7 @@ const talksAndPosters = [
     title: "Revenue Management with Calendar-Aware and Dependent Demands: A Tight Fluid Approximation",
     events: [
       {
-        event: "Kellogg's OM Rookiepalooza",
+        event: "Northwestern Kellogg's OM Rookiepalooza",
         location: "Evanston",
         date: "October 2024",
         type: "presentation"
