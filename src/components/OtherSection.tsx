@@ -7,9 +7,9 @@ const favoriteMovies = [
   { title: "Where Is the Friend's House?", year: 1987, director: "Abbas Kiarostami", poster: "/posters/friends-house.jpg" },
   { title: "A City of Sadness", year: 1989, director: "Hou Hsiao-hsien", poster: "/posters/city-sadness.jpg" },
   { title: "After the Storm", year: 2016, director: "Hirokazu Kore-eda", poster: "/posters/after-storm.jpg" },
-  { title: "Still Life", year: 2006, director: "Jia Zhangke", poster: "/posters/still-life.jpg" },
+  { title: "Pina", year: 2011, director: "Wim Wenders", poster: "/posters/pina.jpg" },
+  { title: "Landscape in the Mist", year: 1988, director: "Theo Angelopoulos", poster: "/posters/landscape-mist.jpg" },
   { title: "Solaris", year: 1972, director: "Andrei Tarkovsky", poster: "/posters/solaris.jpg" },
-  { title: "Mulholland Drive", year: 2001, director: "David Lynch", poster: "/posters/mulholland-drive.jpg" },
   { title: "Roma", year: 2018, director: "Alfonso Cuarón", poster: "/posters/roma.jpg" },
 ];
 
