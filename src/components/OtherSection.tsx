@@ -2,7 +2,6 @@ import { Film } from "lucide-react";
 
 const favoriteMovies = [
   { title: "Peppermint Candy", year: 1999, director: "Lee Chang-dong", poster: "/posters/peppermint-candy.jpg" },
-  { title: "Un Poeta", year: 2025, director: "Darezhan Omirbayev", poster: "/posters/poet.jpg" },
   { title: "Les glaneurs et la glaneuse", year: 2000, director: "Agnès Varda", poster: "/posters/gleaners.jpg" },
   { title: "The Room Next Door", year: 2024, director: "Pedro Almodóvar", poster: "/posters/room-next-door.jpg" },
   { title: "Where Is the Friend's House?", year: 1987, director: "Abbas Kiarostami", poster: "/posters/friends-house.jpg" },
