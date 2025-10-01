@@ -75,6 +75,23 @@ export const HeroSection = () => {
                 className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
               />
               <div className="absolute inset-0 bg-hero-gradient opacity-10"></div>
+              
+              {/* Email icon button */}
+              <div className="absolute bottom-4 right-4">
+                <Button
+                  variant="outline"
+                  size="icon"
+                  asChild
+                  className="bg-background/90 backdrop-blur-sm hover:bg-primary hover:text-primary-foreground transition-colors shadow-lg"
+                >
+                  <a
+                    href="mailto:wl425@cornell.edu"
+                    aria-label="Send email to wl425@cornell.edu"
+                  >
+                    <Mail className="w-5 h-5" />
+                  </a>
+                </Button>
+              </div>
             </div>
           </div>
         </div>
