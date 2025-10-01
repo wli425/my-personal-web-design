@@ -14,43 +14,44 @@ const favoriteMovies = [
 ];
 
 export const OtherSection = () => {
+  // Duplicate the array for seamless infinite scroll
+  const duplicatedMovies = [...favoriteMovies, ...favoriteMovies];
+
   return (
-    <section id="other" className="py-12 bg-muted/30">
-      <div className="container mx-auto px-4">
-        <div className="flex items-center gap-2 mb-6 justify-center opacity-60">
-          <Film className="w-4 h-4 text-muted-foreground" />
-          <h2 className="text-sm font-medium text-muted-foreground tracking-wide">
-            Other
-          </h2>
-        </div>
-        
-        <div className="max-w-4xl mx-auto">
-          <p className="text-xs text-muted-foreground text-center mb-6 opacity-75">
-            Some films that have influenced my perspective
-          </p>
-          
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3">
-            {favoriteMovies.map((movie) => (
-              <div
-                key={`${movie.title}-${movie.year}`}
-                className="group relative aspect-[2/3] bg-muted/50 rounded-md overflow-hidden border border-border/50 hover:border-border transition-all hover:shadow-sm"
-              >
-                <img 
-                  src={movie.poster} 
-                  alt={`${movie.title} (${movie.year})`}
-                  className="w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-end p-3 text-center">
-                  <p className="text-xs font-medium text-foreground line-clamp-2 mb-1">
-                    {movie.title}
-                  </p>
-                  <p className="text-xs text-muted-foreground opacity-80">
-                    {movie.director}, {movie.year}
-                  </p>
-                </div>
+    <section id="other" className="py-8 bg-muted/30 overflow-hidden">
+      <div className="flex items-center gap-2 mb-4 justify-center opacity-60">
+        <Film className="w-4 h-4 text-muted-foreground" />
+        <h2 className="text-sm font-medium text-muted-foreground tracking-wide">
+          Other
+        </h2>
+      </div>
+      
+      <p className="text-xs text-muted-foreground text-center mb-6 opacity-75">
+        Some films that have influenced my perspective
+      </p>
+      
+      <div className="relative">
+        <div className="flex animate-scroll hover:[animation-play-state:paused]">
+          {duplicatedMovies.map((movie, index) => (
+            <div
+              key={`${movie.title}-${movie.year}-${index}`}
+              className="group relative flex-shrink-0 w-32 sm:w-40 aspect-[2/3] bg-muted/50 rounded-md overflow-hidden border border-border/50 hover:border-border transition-all hover:shadow-sm mx-2"
+            >
+              <img 
+                src={movie.poster} 
+                alt={`${movie.title} (${movie.year})`}
+                className="w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex flex-col items-center justify-end p-3 text-center">
+                <p className="text-xs font-medium text-foreground line-clamp-2 mb-1">
+                  {movie.title}
+                </p>
+                <p className="text-xs text-muted-foreground opacity-80">
+                  {movie.director}, {movie.year}
+                </p>
               </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
