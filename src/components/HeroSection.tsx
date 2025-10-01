@@ -40,6 +40,19 @@ export const HeroSection = () => {
                 className="hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <a
+                  href="mailto:wl425@cornell.edu"
+                  aria-label="Send email to wl425@cornell.edu"
+                >
+                  <Mail className="w-5 h-5" />
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                size="icon"
+                asChild
+                className="hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <a
                   href="https://www.linkedin.com/in/weiyuan-li-458191279"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -61,19 +74,6 @@ export const HeroSection = () => {
                   aria-label="Google Scholar Profile"
                 >
                   <GraduationCap className="w-5 h-5" />
-                </a>
-              </Button>
-              <Button
-                variant="outline"
-                size="icon"
-                asChild
-                className="hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <a
-                  href="mailto:wl425@cornell.edu"
-                  aria-label="Send email to wl425@cornell.edu"
-                >
-                  <Mail className="w-5 h-5" />
                 </a>
               </Button>
             </div>
