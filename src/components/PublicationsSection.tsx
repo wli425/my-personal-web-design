@@ -21,7 +21,7 @@ const workingPapers = [
   {
     title: "Dynamic Pricing Over a Network of Resources Under Monotonicity Constraints",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
-    status: "Work in Progress",
+    status: "Draft Available Upon Request",
     link: "",
     type: "working"
   }
