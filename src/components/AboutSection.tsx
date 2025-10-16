@@ -31,7 +31,7 @@ export const AboutSection = () => {
             <p className="text-lg leading-relaxed mb-6">
               I have a broad interest in modeling stochastic optimization problems and designing provably good algorithms to solve them, with a particular focus on applications in revenue management and pricing.
             </p>
-            <p className="text-lg leading-relaxed font-semibold">
+            <p className="text-lg leading-relaxed">
               I am on the 2025-2026 job market. My INFORMS Job Market Showcase talk will be at Building A Level 3 A316, 3:03–3:21pm, Sunday, October 26.
             </p>
           </div>
