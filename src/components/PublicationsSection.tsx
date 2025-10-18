@@ -4,7 +4,7 @@ const publications = [
   {
     title: "Revenue Management with Calendar-Aware and Dependent Demands: Asymptotically Tight Fluid Approximations",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
-    journal: "Operations Research, forthcoming",
+    journal: "Operations Research",
     link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543277",
     type: "publication"
   }
