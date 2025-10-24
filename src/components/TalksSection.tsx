@@ -7,7 +7,7 @@ const talksAndPosters = [
       {
         event: "INFORMS Conference, Job Market Showcase",
         location: "Building A Level 3 A316, Atlanta",
-        date: "Sunday, October 26, 3:03–3:21pm",
+        date: "Sunday, October 26, 3:10-3:35pm",
         type: "presentation"
       },
       {
