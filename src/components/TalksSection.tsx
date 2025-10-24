@@ -2,7 +2,7 @@ import { Presentation, Award, Trophy } from "lucide-react";
 
 const talksAndPosters = [
   {
-    title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
+    title: "Revenue Management with Calendar-Aware and Dependent Demands: A Tight Fluid Approximation",
     events: [
       {
         event: "INFORMS Conference, Job Market Showcase",
@@ -16,19 +16,6 @@ const talksAndPosters = [
         date: "Oct 2025",
         type: "presentation"
       },
-      {
-        event: "YinzOR Workshop, Fan Favorite Prize",
-        location: "Pittsburgh",
-        date: "August 2025",
-        type: "poster",
-        award: true
-      }
-    ],
-    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107682"
-  },
-  {
-    title: "Revenue Management with Calendar-Aware and Dependent Demands: A Tight Fluid Approximation",
-    events: [
       {
         event: "Northwestern Kellogg's OM Rookiepalooza",
         location: "Evanston",
@@ -60,6 +47,19 @@ const talksAndPosters = [
         type: "presentation"
       }
     ]
+  },
+  {
+    title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
+    events: [
+      {
+        event: "YinzOR Workshop, Fan Favorite Prize",
+        location: "Pittsburgh",
+        date: "August 2025",
+        type: "poster",
+        award: true
+      }
+    ],
+    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107682"
   }
 ];
 
