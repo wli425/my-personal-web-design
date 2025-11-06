@@ -19,9 +19,6 @@ export const HeroSection = () => {
               <p className="text-base md:text-lg text-muted-foreground">
                 Cornell University / Cornell Tech
               </p>
-              <p className="text-base md:text-lg font-semibold text-primary">
-                On the 2025-2026 Job Market
-              </p>
             </div>
 
             <div className="space-y-3 text-muted-foreground text-sm md:text-base">

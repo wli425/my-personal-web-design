@@ -6,7 +6,7 @@ export const AboutSection = () => {
         <div className="card-academic p-8 animate-slide-in">
           <div className="prose prose-lg max-w-none text-foreground">
             <p className="text-lg leading-relaxed mb-6">
-              <strong className="text-primary">I'm on the 2025-2026 job market.</strong> I'm a fifth year Ph.D. candidate in Operations Research at{" "}
+              I'm a fifth year Ph.D. candidate in Operations Research at{" "}
               <a href="https://www.orie.cornell.edu/orie" className="link-academic">
                 Cornell University
               </a>
@@ -28,8 +28,11 @@ export const AboutSection = () => {
               </a>{" "}
               in 2021.
             </p>
-            <p className="text-lg leading-relaxed">
+            <p className="text-lg leading-relaxed mb-6">
               I have a broad interest in modeling stochastic optimization problems and designing provably good algorithms to solve them, with a particular focus on applications in revenue management and pricing.
+            </p>
+            <p className="text-lg leading-relaxed font-semibold text-primary">
+              I'm on the 2025-2026 job market.
             </p>
           </div>
         </div>
