@@ -32,7 +32,7 @@ export const AboutSection = () => {
               I have a broad interest in modeling stochastic optimization problems and designing provably good algorithms to solve them, with a particular focus on applications in revenue management and pricing.
             </p>
             <p className="text-lg leading-relaxed font-semibold text-primary">
-              I'm on the 2025-2026 job market.
+              I will be joining Washington University in St. Louis as a tenure-track assistant professor in Fall 2026.
             </p>
           </div>
         </div>
