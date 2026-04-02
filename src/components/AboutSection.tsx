@@ -31,7 +31,7 @@ export const AboutSection = () => {
             <p className="text-lg leading-relaxed mb-6">
               I have a broad interest in modeling stochastic optimization problems and designing provably good algorithms to solve them, with a particular focus on applications in revenue management and pricing.
             </p>
-            <p className="text-lg leading-relaxed font-semibold text-primary">
+            <p className="text-lg leading-relaxed text-primary">
               I will be joining Vienna University of Economics and Business as a tenure-track assistant professor in Fall 2026.
             </p>
           </div>
