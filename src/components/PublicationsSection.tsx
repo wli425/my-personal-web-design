@@ -19,7 +19,7 @@ const workingPapers = [
     type: "working"
   },
   {
-    title: "Dynamic Pricing Over a Network of Resources Under Monotonicity Constraints",
+    title: "Inter-Temporal Price Constraints in Dynamic Pricing: Performance Guarantees Under Price Monotonicity and Promotion Fatigue",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
     status: "Draft Available Upon Request",
     link: "",
