@@ -6,7 +6,7 @@ export const AboutSection = () => {
         <div className="card-academic p-8 animate-slide-in">
           <div className="prose prose-lg max-w-none text-foreground">
             <p className="text-lg leading-relaxed mb-6">
-              I am a tenure-track Assistant Professor in the Department of Business Analytics and Decision Sciences at WU Vienna University of Economics and Business. I received my Ph.D. in Operations Research from{" "}
+              I am an Assistant Professor in the Department of Business Analytics and Decision Sciences at WU Vienna University of Economics and Business. I received my Ph.D. in Operations Research from{" "}
               <a href="https://www.orie.cornell.edu/orie" className="link-academic">
                 Cornell University
               </a>{" "}

@@ -13,7 +13,7 @@ export const HeroSection = () => {
                 <span className="hero-text">Weiyuan Li</span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">
-                Tenure-Track Assistant Professor
+                Assistant Professor
               </p>
               <p className="text-base md:text-lg text-muted-foreground">
                 Department of Business Analytics and Decision Sciences
@@ -88,7 +88,7 @@ export const HeroSection = () => {
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img
                 src={`${import.meta.env.BASE_URL}images/weiyuan-li-graduation.webp`}
-                alt="Weiyuan Li - Tenure-Track Assistant Professor at WU Vienna"
+                alt="Weiyuan Li - Assistant Professor at WU Vienna"
                 width={600}
                 height={1066}
                 className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-[center_20%]"
