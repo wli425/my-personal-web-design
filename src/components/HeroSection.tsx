@@ -1,5 +1,4 @@
 import { Mail, MapPin, Linkedin, GraduationCap } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
 import { Button } from "@/components/ui/button";
 
 export const HeroSection = () => {
@@ -14,21 +13,26 @@ export const HeroSection = () => {
                 <span className="hero-text">Weiyuan Li</span>
               </h1>
               <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">
-                Ph.D. Candidate in Operations Research
+                Tenure-Track Assistant Professor
               </p>
               <p className="text-base md:text-lg text-muted-foreground">
-                Cornell University / Cornell Tech
+                Department of Business Analytics and Decision Sciences
+              </p>
+              <p className="text-base md:text-lg text-muted-foreground">
+                WU Vienna University of Economics and Business
               </p>
             </div>
 
             <div className="space-y-3 text-muted-foreground text-sm md:text-base">
               <div className="flex items-center gap-3">
-                <MapPin className="w-5 h-5 text-primary" />
-                <span>2 West Loop Road, New York, NY 10044</span>
+                <MapPin className="w-5 h-5 shrink-0 text-primary" />
+                <span>Vienna, Austria</span>
               </div>
               <div className="flex items-center gap-3">
-                <Mail className="w-5 h-5 text-primary" />
-                <span>wl425 "at" cornell "dot" edu</span>
+                <Mail className="w-5 h-5 shrink-0 text-primary" />
+                <a href="mailto:Weiyuan.Li@wu.ac.at" className="link-academic">
+                  Weiyuan.Li@wu.ac.at
+                </a>
               </div>
             </div>
 
@@ -40,8 +44,8 @@ export const HeroSection = () => {
                 className="hover:bg-primary hover:text-primary-foreground transition-colors"
               >
                 <a
-                  href="mailto:wl425@cornell.edu"
-                  aria-label="Send email to wl425@cornell.edu"
+                  href="mailto:Weiyuan.Li@wu.ac.at"
+                  aria-label="Send email to Weiyuan.Li@wu.ac.at"
                 >
                   <Mail className="w-5 h-5" />
                 </a>
@@ -83,9 +87,11 @@ export const HeroSection = () => {
           <div className="animate-scale-in">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img
-                src={profilePhoto}
-                alt="Weiyuan Li - Ph.D. Candidate at Cornell University"
-                className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover"
+                src="/images/weiyuan-li-graduation.webp"
+                alt="Weiyuan Li - Tenure-Track Assistant Professor at WU Vienna"
+                width={600}
+                height={1066}
+                className="w-full h-[400px] md:h-[500px] lg:h-[600px] object-cover object-[center_20%]"
               />
               <div className="absolute inset-0 bg-hero-gradient opacity-10"></div>
             </div>
