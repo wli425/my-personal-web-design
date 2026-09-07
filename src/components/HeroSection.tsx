@@ -87,7 +87,7 @@ export const HeroSection = () => {
           <div className="animate-scale-in">
             <div className="relative rounded-2xl overflow-hidden shadow-elegant">
               <img
-                src="/images/weiyuan-li-graduation.webp"
+                src={`${import.meta.env.BASE_URL}images/weiyuan-li-graduation.webp`}
                 alt="Weiyuan Li - Tenure-Track Assistant Professor at WU Vienna"
                 width={600}
                 height={1066}

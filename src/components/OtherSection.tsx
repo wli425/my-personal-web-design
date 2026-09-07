@@ -34,7 +34,7 @@ export const OtherSection = () => {
               className="group relative flex-shrink-0 w-32 sm:w-40 aspect-[2/3] bg-muted/50 rounded-md overflow-hidden border border-border/50 hover:border-border transition-all hover:shadow-sm mx-2"
             >
               <img 
-                src={movie.poster} 
+                src={`${import.meta.env.BASE_URL}${movie.poster.replace(/^\//, "")}`} 
                 alt={`${movie.title} (${movie.year})`}
                 className="w-full h-full object-cover opacity-70 group-hover:opacity-90 transition-opacity"
               />
