@@ -14,9 +14,10 @@ commits on `main`. You can also run it manually from the Actions tab.
    deployment result. Without a custom domain, the expected project URL is
    https://wli425.github.io/my-personal-web-design/.
 
-This repository is private. GitHub Pages from a private personal repository
-requires GitHub Pro (or another eligible plan). If the Pages settings page asks
-for an upgrade, stop and decide whether to upgrade or make the source public.
+GitHub Pages supports public repositories on GitHub Free. If you keep the
+repository private, a personal account requires GitHub Pro (or another eligible
+plan). If Pages asks for an upgrade, choose whether to upgrade or publish the
+source yourself; the workflow will not make that decision for you.
 The deployment workflow does not change repository visibility or billing.
 A Pages site normally publishes the built website publicly even when its source
 repository remains private; do not put secrets or confidential files in `public/`.
