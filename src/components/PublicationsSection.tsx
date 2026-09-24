@@ -4,8 +4,8 @@ const publications = [
   {
     title: "Revenue Management with Calendar-Aware and Dependent Demands: Asymptotically Tight Fluid Approximations",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
-    journal: "Operations Research, Vol. 73, No. 3, 2025",
-    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4543277",
+    journal: "Operations Research, Vol. 73, No. 3, pp. 1260–1272, 2025",
+    link: "https://people.orie.cornell.edu/huseyin/publications/calendar_aware.pdf",
     type: "publication"
   }
 ];
@@ -14,15 +14,15 @@ const workingPapers = [
   {
     title: "History-Dependent Fluid Approximations and Performance Guarantees for Revenue Management with Markov-Modulated Demands",
     authors: "Weiyuan Li, Paat Rusmevichientong, Huseyin Topaloglu and Jingwei Zhang",
-    status: "Major Revision at Operations Research",
-    link: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5107682",
+    status: "Minor Revision at Operations Research",
+    link: "https://people.orie.cornell.edu/huseyin/publications/markov_modulated.pdf",
     type: "working"
   },
   {
     title: "Inter-Temporal Price Constraints in Dynamic Pricing: Performance Guarantees Under Price Monotonicity and Promotion Fatigue",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
     status: "Draft Available Upon Request",
-    link: "",
+    link: "https://arxiv.org/pdf/2609.28451",
     type: "working"
   }
 ];
