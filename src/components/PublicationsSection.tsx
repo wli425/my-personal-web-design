@@ -5,7 +5,7 @@ const publications = [
     title: "Revenue Management with Calendar-Aware and Dependent Demands: Asymptotically Tight Fluid Approximations",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
     journal: "Operations Research, Vol. 73, No. 3, pp. 1260–1272, 2025",
-    link: "https://people.orie.cornell.edu/huseyin/publications/calendar_aware.pdf",
+    link: "https://faculty.marshall.usc.edu/Paat-Rusmevichientong/psfiles/calendar_aware.pdf",
     type: "publication"
   }
 ];
