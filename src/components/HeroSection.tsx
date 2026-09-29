@@ -1,5 +1,6 @@
 import { Mail, MapPin, Linkedin, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover";
 
 export const HeroSection = () => {
   return (
@@ -80,20 +81,34 @@ export const HeroSection = () => {
                   <GraduationCap className="w-5 h-5" />
                 </a>
               </Button>
-              <Button
-                variant="outline"
-                asChild
-                className="hover:bg-primary hover:text-primary-foreground transition-colors"
-              >
-                <a
-                  href="https://orcid.org/0000-0002-7125-7706"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  aria-label="ORCID profile: 0000-0002-7125-7706"
-                >
-                  ORCID: 0000-0002-7125-7706
-                </a>
-              </Button>
+              <Popover>
+                <PopoverTrigger asChild>
+                  <Button
+                    variant="outline"
+                    size="icon"
+                    aria-label="Show ORCID"
+                    className="hover:bg-primary hover:text-primary-foreground transition-colors"
+                  >
+                    <span
+                      aria-hidden="true"
+                      className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-current text-[11px] font-semibold leading-none"
+                    >
+                      iD
+                    </span>
+                  </Button>
+                </PopoverTrigger>
+                <PopoverContent align="start" className="w-auto">
+                  <p className="mb-1 text-xs font-medium text-muted-foreground">ORCID</p>
+                  <a
+                    href="https://orcid.org/0000-0002-7125-7706"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="link-academic text-sm"
+                  >
+                    0000-0002-7125-7706
+                  </a>
+                </PopoverContent>
+              </Popover>
             </div>
           </div>
 
