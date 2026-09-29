@@ -89,12 +89,19 @@ export const HeroSection = () => {
                     aria-label="Show ORCID"
                     className="hover:bg-primary hover:text-primary-foreground transition-colors"
                   >
-                    <span
+                    <svg
                       aria-hidden="true"
-                      className="inline-flex h-5 w-5 items-center justify-center rounded-full border border-current text-[11px] font-semibold leading-none"
+                      focusable="false"
+                      viewBox="0 0 24 24"
+                      className="h-5 w-5"
+                      fill="currentColor"
                     >
-                      iD
-                    </span>
+                      <path
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                        d="M24 12a12 12 0 1 1-24 0 12 12 0 0 1 24 0ZM7.5 5.5a1.3 1.3 0 1 0 0 2.6 1.3 1.3 0 0 0 0-2.6ZM6.4 9v9h2.2V9H6.4Zm4.2-3v12h3.8c3.6 0 5.7-2.2 5.7-6s-2.1-6-5.7-6h-3.8Zm2.2 2.2h1.5c2.4 0 3.6 1.3 3.6 3.8s-1.2 3.8-3.6 3.8h-1.5V8.2Z"
+                      />
+                    </svg>
                   </Button>
                 </PopoverTrigger>
                 <PopoverContent align="start" className="w-auto">
