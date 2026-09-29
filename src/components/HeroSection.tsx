@@ -36,7 +36,7 @@ export const HeroSection = () => {
               </div>
             </div>
 
-            <div className="flex gap-3 pt-2">
+            <div className="flex flex-wrap gap-3 pt-2">
               <Button
                 variant="outline"
                 size="icon"
@@ -78,6 +78,20 @@ export const HeroSection = () => {
                   aria-label="Google Scholar Profile"
                 >
                   <GraduationCap className="w-5 h-5" />
+                </a>
+              </Button>
+              <Button
+                variant="outline"
+                asChild
+                className="hover:bg-primary hover:text-primary-foreground transition-colors"
+              >
+                <a
+                  href="https://orcid.org/0000-0002-7125-7706"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="ORCID profile: 0000-0002-7125-7706"
+                >
+                  ORCID: 0000-0002-7125-7706
                 </a>
               </Button>
             </div>
