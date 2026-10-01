@@ -21,7 +21,7 @@ const workingPapers = [
   {
     title: "Inter-Temporal Price Constraints in Dynamic Pricing: Performance Guarantees Under Price Monotonicity and Promotion Fatigue",
     authors: "Weiyuan Li, Paat Rusmevichientong and Huseyin Topaloglu",
-    status: "Under Revision at Management Science",
+    status: "Under Review at Management Science",
     link: "https://arxiv.org/pdf/2609.28451",
     type: "working"
   }
